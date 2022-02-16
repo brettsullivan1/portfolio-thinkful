@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4&display=swap');
+
+
+
+*{
+    box-sizing: border-box;
+    font-family: 'Source Serif 4', sans-serif;
+    text-align: center;  /* this was made so that everything in my page had the same font and aligned to the center */
+    list-style-position: inside;
+}
+    
+header {
+    height: auto;
+    background-color: #8BBEE8FF;
+    background-size: cover; 
+    font-size: 20px;       /*header design*/
+    padding-top: 10px;
+}
+
+article{
+    margin-bottom: 20px; /*article design*/
+    margin-top: 20px;
+
+}
+
+
+footer {
+    background-color: #8BBEE8FF;  /*footer design*/
+    padding-top: 10px;  
+    padding-bottom: 10px;
+
+}
+
+p{
+    color: black /*made all letters in all paragraphs black to make it stand out a little more on the page*/
+    
+}
+
+hr{
+    width: 1000px;  /* so that the width of the border wouldnt be the whole screen*/
+}
+
+a:link{
+    font-size : 35px;
+}
+                                     /*pseudo class links*/
+a:visited{
+    color: brown;
+}
+
+a:hover{
+    font-size: 40px;
+}
+
+a:focus{
+    background:yellow;
+}
+a:active{
+    color:green;
+    font-weight:  900;
+}
